@@ -34,6 +34,7 @@ Use this skill when a task requires an autonomous loop (Try -> Observe -> Correc
 - **Codex CLI installed:** `npm install -g @openai/codex`
 - **Git Repository:** Codex MUST run inside a git repository.
 - **Vision Proxy:** `scripts/vision_proxy.py` must be available to bridge Codex to the vision system using `google-gemini-cli/gemini-3-pro-preview`.
+- **Super-Router (Recommended):** While not a hard dependency, having the `super-router` skill deployed is highly recommended for complex tasks to provide the high-level decomposition needed before General Agent execution.
 
 ## Core Workflows
 

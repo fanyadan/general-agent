@@ -25,6 +25,7 @@ This skill was originally created to access GPT-5.5 from Hermes before Hermes su
 - `@openai/codex` installed globally or otherwise available on `PATH`.
 - Git, because Codex expects to run inside a Git repository.
 - Hermes vision tooling for multimodal tasks that call `scripts/vision_proxy.py`.
+- **Super-Router skill** (Recommended): While not a hard dependency, having the [super-router](https://github.com/fanyadan/super-router) skill deployed is highly recommended for complex tasks to provide high-level decomposition before General Agent execution.
 
 Install or verify Codex:
 
