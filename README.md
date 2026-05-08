@@ -19,6 +19,22 @@ This skill was originally created to access GPT-5.5 from Hermes before Hermes su
     └── vision_proxy.py      # Image-to-text bridge for Codex workflows
 ```
 
+## Installation
+
+Install the skill with the Hermes skills command:
+
+```sh
+hermes skills install https://raw.githubusercontent.com/fanyadan/general-agent/master/SKILL.md --name general-agent --yes
+```
+
+Verify that Hermes can see the skill:
+
+```sh
+hermes skills list
+```
+
+To reinstall or update from the same source, add `--force` to the install command.
+
 ## Prerequisites
 
 - Node.js and npm for installing the Codex CLI.
