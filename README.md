@@ -14,7 +14,6 @@ This skill was originally created to access GPT-5.5 from Hermes before Hermes su
 .
 ├── SKILL.md                 # Hermes skill metadata and execution rules
 ├── README.md                # User-facing overview and setup guide
-├── AGENTS.md                # Contributor guide
 └── scripts/
     └── vision_proxy.py      # Image-to-text bridge for Codex workflows
 ```
